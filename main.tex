@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\title{Konfiguracija računala}
+\author{Matko Manzin}
+\date{25.1.2024.}
+
+\begin{document}
+\maketitle
+\section*{Svrha Računala}
+Računalo je namijenjeno za "gaming" na 1440p rezoluciji.
+
+\section*{Komponente Računala}
+
+\subsection*{Procesor}
+\textbf{Ryzen 5 7600} \\
+Zen 4, 6 jezgara, 12 niti, 5.1GHz, AM5 \\
+\textit{Obrazloženje:} Odabrao sam Ryzen 5 7600 zbog novog CPU socket-a AM5 koji podržava DDR5 RAM. Ovaj procesor je odličan za “gaming” konfiguraciju računala jer ima 6 jezgara što je skroz dovoljno za igranje videoigara. Odabrao sam “non-x” verziju jer je malo jeftinija od "x" verzije, a performanse između 7600 i 7600x su marginalne.
+
+\subsection*{Matična ploča}
+\textbf{GIGABYTE B650M AORUS Elite AX} \\
+AM5, LGA 1718, Micro-ATX, DDR5, 2* M.2, PCIe 5.0, Intel 2.5GbE LAN \\
+\textit{Obrazloženje:} Ima dva m.2 utora, jedan koji je PCIe 5.0 i drugi 4.0. Također ova matična ploča ima hladnjak na m.2 utorima i na VRM komponentama. Sa svim time ima i dosta priključaka na integriranom stražnjem I/O štitu, 1x USB-C sa USB 3.2 Gen 2, 2x USB 3.2 Gen 2, 5x USB 3.2 Gen 1, 4x USB 2.0. Izabrao sam ovu matičnu ploču jer je modernija i u budućnosti ne bi trebalo biti problema kod nadogradnje računala dok AM4 matične ploče će biti dosta ograničene s odabirom komponenti.
+
+\pagebreak
+\subsection*{Radna Memorija (RAM)}
+\textbf{CORSAIR Vengeance} \\
+2x16 GB, DDR5, 6000MHz, CL30, AMD Expo iCUE \\
+\textit{Obrazloženje:} Odabrao sam 6000 MHz jer je poznato da dolazi do problema kad je brzina iznad 6400MHz, CL30 je CAS kašnjenje, te što je niži CL to je bolji odabir. Uzeli smo 2 RAM stick-a da možemo imati što veću propusnost kroz “Dual-channel“ način.
+
+\subsection*{Grafička kartica}
+\textbf{RX 7800 XT XFX Speedster MERC319} \\
+16 GB GDDR6, 2565 MHz, RDNA 3 \\
+\textit{Obrazloženje:} Odabrao sam je jer je jeftinija od RTX 4070 za otprilike 50 EUR i ima 16 GB VRAM-a, ali osobno bi uzeo Nvidiu zbog DLSS tehnologije. Ostavit ću RX 7800 XT jer je ovo AMD konfiguracija, ali ne bi bilo krivo staviti RTX 4070. Još jedan razlog zašto je ovdje dobro odabrati RX 7800 XT je zbog “AMD Smart Access Memory“ tehnologije koja može poboljšati performanse u nekim igrama za 1-15\%.
+
+\subsection*{Napajanje}
+\textbf{Corsair RM750x Shift} \\
+80 Plus Gold Efficiency, 750 W, Modularno, ATX 3.0 \& PCIe 5.0 \\
+\textit{Obrazloženje:} Ovo napajanje je jedno od najkvalitetnijih na tržištu, modularno je što je omogućuje lakšu organizaciju i korištenje isključivo potrebnih kablova za našu konfiguraciju. Ima 80 Plus Gold certifikat što znači da je do 87\% energetski učinkovito čak i pod najvećim opterećenjem. 
+
+\subsection*{Tvrdi disk}
+\textbf{Seagate BarraCuda} \\
+2TB, 7200 rpm, 256 MB cache, SATA 6 Gb \\
+\textit{Obrazloženje:} Za pohranu podataka sam Seagate BarraCuda 2 TB tvrdi disk koji se više isplati uzeti nego isti, ali 1 TB. Cijena po GB je 0.035 EUR, dok 1 TB opcija je 0.064 EUR. Obje cijene su sa Amazon-a, te ih je moguće kupiti jeftinije u Hrvatskoj.
+
+\subsection*{NVMe M.2}
+\textbf{WD\_BLACK SN850X} \\
+1TB, PCIe Gen4, Read 7300MB/s, Write 6300MB/s \\
+\textit{Obrazloženje:} Cijena po GB je 0.086 EUR što je jeftinije od najbolje opcije, a to je Samsung 990 PRO NVMe M.2 1 TB čija cijena po GB je 0.12 EUR. Naravno ima i Samsung 980 PRO NVMe M.2 1 TB, ali on je sporiji i skuplji od WD\_BLACK.
+
+\subsection*{Kućište}
+\textbf{Fractal Design North Charcoal Black} \\
+Wood Walnut Front, Mesh Side Panels, Two 140mm Aspect PWM Fans \\
+\textit{Obrazloženje:} Za kućište je odabran Fractal Design North Charcoal Black. Izabrao sam ga jer je jako poseban dizajn, prednja strana je napravljena od drva oraha, a bočne strane su mrežaste. Kućište dolazi sa dva 120mm prednja ventilatora koji će biti „intake” dok gornji ventilatori će bit dva 140mm Be quiet! ventilatora i oni će bit “exhaust”. Na stražnjoj strani će biti jedan 120mm Be quiet! ventilator i on će također biti “exhaust”.
+
+\subsection*{Hladnjak za procesor}
+\textbf{Be quiet! cooler Pure Rock 2 Black} \\
+150W TDP, 4-Pin PWM, 51 CFM \\
+\textit{Obrazloženje:} Odabrao sam ga jer koristim Be quiet! ventilatore odkad sam složio vlastito računalo pa ih smatram pouzdanima. Ima 4-pin konektor što omogućuje kontrolu brzine ventilatora i protok je 51 CFM što je jako dobro.
+
+\subsection*{Ventilatori}
+\textbf{Be quiet! Pure Wings 2 140mm} \\
+4-Pin PWM, 61 CFM \\
+\textit{Obrazloženje:} Za dodatne ventilatore odabrao sam dva komada Be quiet! Pure Wings 2 140mm. Dosta su tihi i isto tako su 4-pin, a protok je 61 CFM.
+\textbf{Be quiet! Pure Wings 2 120mm} \\
+4-Pin PWM, 87 CFM \\
+\textit{Obrazloženje:} Još sam uzeo i jedan Be quiet! Pure Wings 2, 120 mm. Njegov protok je 87 CFM.
+
+\section*{Periferija}
+
+\subsection*{Monitor}
+\textbf{DELL S2721DGFA} \\
+27", IPS, QHD 2560x1440px, 1ms, 165 Hz, G-Sync, FreeSync \\
+\textit{Obrazloženje:} Ima IPS panel, 2560x1440 piksela, 165 Hz I također G-Sync, te FreeSync. Potreban nam je kvalitetan monitor koji ima pristojnu brzinu osvježavanja, te nisko vrijeme odaziva koje je 1 ms. Zbog veće dijagone ekrana odabralimo smo 2560x1440 piksela, ali ujedno i zato jer ova konfiguracija je napravljena za 1440p.
+
+\pagebreak
+
+\subsection*{Tipkovnica}
+\textbf{Glorious Gaming GMMK } \\
+Mechanical, Gateron Brown Switches \\
+\textit{Obrazloženje:} Osobno ju koristim i preporučljiva je ne samo od mene nego i od mnogo drugih koji su je probali. Ova tipkovnica je “hot-swappable” što znači da je moguće izmjeniti “switches” i gumbe s nečim drugim. Također mehanička je i zbog toga je poželjna za “gaming” ili obično pisanje.
+
+\subsection*{Miš}
+\textbf{SteelSeries Sensei Ten} \\
+18.000 DPI, Optical sensor \\
+\textit{Obrazloženje:} Osobno koristim taj miš i udoban je za moju ruku. Miš se treba odabrati po veličini ruke, te ovaj odabir je subjektivan. Preferirani senzor miša za “gaming” je optički senzor.
+
+\end{document}
